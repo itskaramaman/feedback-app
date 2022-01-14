@@ -5,7 +5,6 @@ import FeedbackList from './components/FeedbackList';
 import FeedbackStats from './components/FeedbackStats';
 import FeedbackForm from './components/FeedbackForm';
 
-import Post from './components/Post';
 import Card from './components/shared/Card';
 import AboutPage from './pages/AboutPage';
 import AboutIconLink from './components/AboutIconLink';
@@ -30,7 +29,6 @@ function App() {
                         
                     </Route>
                     <Route path="/about" element={<AboutPage />} />
-                    {/* <Route path="/post*" element={<Post />} /> */}
                 </Routes>
 
                 <Card>
